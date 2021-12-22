@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <title>Eden Tadesse-Written</title>
+    <meta name="viewport" content="width-device-width,initial-sscale=1.0">
+    <link rel="stylesheet" href="../css/mobile.css">  
+    <body>
+        <div class="written">
+            <div class="A">
+            <header>    
+               <nav class="navbar">
+                <div class="logo"><img src="../images/logo.jpg" alt="logo"></div>
+                   <ul class="navlist1">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="document.html">Document</a></li>
+                      <li><a href="service.html">Service</a></li>
+                      <li><a href="program.html">Program</a>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="video.html">Video</a></li>
+                                <li><a href="written.html">Written</a></li>
+                            </ul>
+                        </div>
+                      </li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                   </ul>          
+               </nav>
+            </header>
+           </div>
+        <div class="J">
+        <main class="maineight">
+            <h1>Learn how to design web</h1>
+            <div class="disc">
+            <ul>
+               <li>Getting started </li>
+               <li>CSS for presentation</li>
+               <li>Javascript for behaviour</li>
+            </ul>
+            <h1>html for structure</h1>
+            <h2>Lessons</h2>
+            <ul>
+               <li>Get a feel for how markup works, including an understanding of elements and attributes.</li>
+               <li>Learn how HTML documents are structured.</li>
+            </ul></div>
+            <h1>Basic Document Structure</h1>
+            <p>Below there is recommended minimal skeleton of an HTML document. I say “recommended” because the only element that is requiredin 
+            HTML is the title. But I feel it is better, particularly for beginners, to explicitly organize documents into metadata (head) and content (body) areas. Let’s 
+            take a look at what’s going on in this minimal markup example. </p><br>
+           <em> <ul>
+               <li>&lt!DOCTYPE html&gt</li>
+               <li>&lthtml&gt</li>
+               <li>&lthead&gt</li>
+               <li>&ltmeta charset="utf-8"></li>
+               <li>&lttitle&gtTitle here&lt/title&gt</p>
+               <li>&lt/head&gt</li>
+               <li>&ltbody&gt</li>
+               <li> Page content goes here.</li>
+               <li>&lt/body&gt</li>
+               <li>&lt/html&gt</li>
+           </ul></em>
+           <h1>PARAGRAPHS</h1>
+           <h2>&ltp&gt…&lt/p&gt</h2>
+           <p> Paragraph element</p>
+           <p>Paragraphs arethe most rudimentary elements of a text document. Indicate 
+            a paragraph with the pelement by inserting an opening &ltp>tag at the beginning of the paragraph and a closing <./p>tag after it</p>
+            <h1>Headings</h1>
+            <p>There are actuallysix levels of headings, from 
+                h1to h6. When you add headings to content, the browser uses them to create a document outlinefor the page. Assistive reading devices such as screen 
+                readers use the document outline to help users quickly scan and navigate 
+                through a page. In addition, search engines look at heading levels as part of 
+                their algorithms (information in higher heading levels may be given more 
+                weight). For these reasons, it is a best practice to start with the Level 1 heading (h1) and work down in numerical order, creating a logical document 
+                structure and outline.</p>
+         <em>  <ul>
+                <li>&lth1&gt…&lt/h1&gt</li>
+                <li>&lth2&gt…&lt/h2&gt</li>
+                <li>&lth3&gt…&lt/h3&gt</li>
+                <li>&lth4&gt…&lt/h4&gt</li>
+                <li>&lth5&gt…&lt/h5&gt</li>
+                <li>&lth6&gt…&lt/h6&gt</li></ul></em>
+                <p> Heading elements</p>
+            <h1> THEMATIC BREAKS (HORIZONTAL RULE)</h1>
+               <p> If you want to indicate that one topic has completed and another one is 
+                beginning, you can insert what the spec calls a “paragraph-level thematic 
+                break” with the hrelement. The hrelement adds a logical divider between 
+                sections of a page or paragraphs without introducing a new heading level.</p><br>
+                <p>&lthr&gt- A horizontal rule</p>
+            <h1> LISTS</h1>
+                <p> Humans are natural list makers, and HTML provides elements for marking 
+                    up three types of lists: </p>
+                <dl><strong><u><dt> Unordered lists</dt></u></strong>
+                <dd >Collections of items that appear in no particular order.</dd>
+               <strong> <u><dt> Ordered lists</dt></u> </strong>
+                <dd>Lists in which the sequence of the items is important.</dd>
+                <strong><u><dt> Description lists </dt></u></strong>
+                <dd>Lists that consist of name and value pairs, including but not limited to 
+                    terms and definitions.</dd></dl>
+             <em> <ul>
+                    <li>&ltul&gt…&lt/ul&gt- Unordered list</li>
+                    <li> &ltli&gt…&lt/li&gt-List item within an unordered list</li>
+                <li>&ltol&gt…&lt/ol&gt- Ordered list</li>
+                </ul></em>
+            <h1> Description Lists</h1>
+               <em> <ul>
+                    <li>&ltdl&gt…&lt/dl&gt- A description list</li>
+                    <li>&ltdt&gt…&lt/dt&gt- A name, such as a term or label</li>
+                    <li>&ltdd&gt…&lt/dd&gt- A value, such as a description or definition</li></ul></em>
+                 <p> Description listsare used for any type of name/value pairs, such as terms and 
+                    their definitions, questions and answers, or other types of terms and their 
+                    associated information. Their structure is a bit different from the other two 
+                    lists that we just discussed. The whole description list is marked up as a dl
+                    element. The content of a dlis some number of dtelements indicating the 
+                    names, and ddelements for their respective values. I find it helpful to think of 
+                    them as “terms” (to remember the “t” in dt) and “definitions” (for the “d” in 
+                    dd), even though that is only one use of description lists.</p>
+            <h1>Long Quotations</h1>
+                <p>If you have a long quotation, a testimonial, or a section of copy from another 
+                    source, mark it up as a blockquoteelement. It is recommended that content 
+                    within blockquoteelements be contained in other elements, such as paragraphs, headings, or lists.</p>
+                <p> &ltblockquote&gt…&lt/blockquote&gt-
+                      A lengthy, block-level quotation</p>
+            <h1>PREFORMATTED TEXT</h1>
+                <P> For content in which whitespace is semantically significant, use the preformatted text (pre) element.</P>
+            <h1> Figures</h1>
+                <p> The figure element identifies content that illustrates or supports some point 
+                        in the text. A figure may contain an image, a video, a code snippet, text, or 
+                        even a table—pretty much anything that can go in the flow of web content. 
+                        Content in a figur eelement should be treated and referenced as a selfcontained unit. That means if a figure is removed from its original placement 
+                        in the main flow (to a sidebar or appendix, for example), both the figure and 
+                        the main flow should continue to make sense.
+                         Although you can simply add an image to a page, wrapping it in figuretags 
+                        makes its purpose explicitly clear semantically. It also works as a hook for 
+                         applying special styles to figures but not to other images on the page.</p>
+               <em> <ul>
+                    <li>&ltfigure&gt…&lt/figure&gt    Related image or resource,</li>
+                    <li>&lt figcaption>…&lt/figcaption&gt-     Text description of a figure</li>
+                </ul></em>
+                <p>The figureand figcaptionelements are  not supported inInternet Explorer versions 8 and earlier</p>
+            </div>
+            <div class="C">
+                <footer>
+                    <div class="container">
+                           <div class="row">
+                               <nav class="navbar">
+                                   <ul class="navlist2">
+                                       <li><a href="index.html">Home</a></li>
+                                       <li><a href="document.html">Document</a></li>
+                                       <li><a href="service.html">Service</a></li>
+                                       <li><a href="program.html">Program</a>
+                                        <div class="menu">
+                                            <ul>
+                                                <li><a href="video.html">Video</a></li>
+                                                <li><a href="written.html">Written</a></li>
+                                            </ul>
+                                        </div>
+                                       </li>
+                                       <li><a href="about.html">About</a></li>
+                                       <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                               </nav> 
+                           </div><br><br><br><br><br>
+                           <div class="row">
+                               <div class="footer-col">
+                                   <ul>
+                                    <div class="logo"><img src="../images/logo.jpg" alt="logo"></div><br><br><br>
+                                       <li>lets create solution for every problems</li>
+                                   </ul>
+                               </div>
+                               <div class="footer-col">
+                                   <h4>Follow me</h4>
+                                   <ul>
+                                       <li>instagram</li>
+                                       <li>facebook></li>
+                                   </ul>
+                               </div>
+                               <div class="footer-col">
+                                    <h4>Contact me</h4>
+                                    <ul>
+                                      <li>la9@gmail.com</li>
+                                      <li>@ed_et</li>
+                                    </ul>
+                               </div><br>
+                               <div class="row">
+                                   <div class="smalllogo">
+                                       <ul>
+                                        <li><img src="../images/instagram.jpg" alt="logo"></li>
+                                        <li><img src="../images/facebook.jpg" alt="logo"></li>
+                                        <li><img src="../images/telegram.jpg" alt="logo"></li>
+                                       <ul>
+                                   </div>
+                               </div>
+                           </div>   <br><br><br><hr>
+                               <div class="row">
+                                       <div class="footer-col">
+                                          <ul>
+                                            <li>privacy policy</li>
+                                          </ul>
+                                       </div>
+                                       <div class="footer-col">
+                                          <ul>
+                                            <li>&copycopyright</li>
+                                           </ul>
+                                       </div>
+                                       
+                                        </div>
+                                  </div>
+               </footer>    </div>    </div>    
+        </body>
+        
+    </html>
